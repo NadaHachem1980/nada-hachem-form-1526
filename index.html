@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        
+        <!--Styles-->
+        <link rel="stylesheet" href="css/main.css" type="text/css" />
+        <!-- Add icon library -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+		<title>HTML Form Assignment</title>
+	</head>
+	<body>
+        <center>
+			<fieldset id="main-content" class="main-content">
+				<legend><b>Form Assignment</b></legend>
+                <div id="data-form">
+                    <form>
+                        <div class="column">
+                            <div class="column-half pad">
+                                <div class="column">
+                                    <label for="full-name" class="column">Full Name</label>
+                                </div>
+                                <div class="column">
+                                    <input id="fullname" name="fullname" type="text" class="column" />
+                                </div>
+                            </div>
+                            <div class="column-half pad right">
+                                <div class="column">
+                                    <label for="email" class="column">Email</label>
+                                </div>
+                                <div class="column">
+                                    <input id="email" name="email" type="email" class="column" />
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="column pad">
+                            <div class="column">
+                                <label for="message" class="column">Message</label>
+                            </div>
+                            <div class="column">
+                                <textarea id="message" name="message" class="column"></textarea>
+                            </div>
+                        </div>
+                        <div class="column pad">
+                            <input id="submit-button" name="submit-button" type="submit" value="Submit" class="submit-button" />
+                        </div>
+                    </form>
+                </div>
+			</fieldset>
+        </center>
+		<script src="js/main.js"></script>
+	</body>
+</html>

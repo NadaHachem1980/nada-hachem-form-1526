@@ -1,0 +1,83 @@
+#main-content{
+	max-width: 50rem;
+	background-color: #F5F5F5;
+	border: thin solid #ccc;
+	border-radius: 3px;
+    display: flex;
+}
+
+body{
+	font-family: Arial, Helvetica, Helvetica Neue, sans-serif;
+	font-size: 1rem;
+	color: #000;
+	line-height: 2.8;
+}
+
+input{
+	padding: 5px;
+}
+
+legend{
+	font-size: 2rem;
+	background-color: #fff;
+	padding: 15px;
+	border: thin solid #ccc;
+}
+
+fieldset{
+	text-align: left;
+}
+
+#data-form{
+	text-align: center;
+	
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+.submit-button{
+    background: #6495ED;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 0 15px;
+    cursor: pointer;
+	padding: 10px 15px;
+	margin-top: 15px;
+}
+
+.column{
+    width: 99%;
+    float: left;
+	text-align: left;
+}
+
+.column-half{
+    width: 48%;
+    float: left;
+}
+
+.pad{
+    padding: 5px;
+}
+
+.right{
+    float: right;
+}
+
+@media only screen and (max-width: 40rem) {
+    .column-half{
+        width:100%;
+        float: left;
+    }
+    .submit-button{
+        width:99%;
+        float: left;
+    }
+    
+    body,input,textarea{
+        font-size: 1rem;
+		line-height: 2;
+    }
+}
